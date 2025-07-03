@@ -1,5 +1,22 @@
+body{ 
+    background-color: blueviolet;
+}
+
+.container{
+    display:flex;
+}
+
+.cartao{
+    background-color: rgb(30, 5, 53);
+    height: 20rem;
+    margin: 1rem 1rem;
+    flex-grow: 1;
+    flex-basics: calc(33% - 6rem);
+}
+
+
 .cartao_conteudo h3 {
-    background-color: tomato;
+    background-color: rgb(86, 44, 105);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -8,8 +25,9 @@
     font-size: 1vw;
 }
 
+
 footer {
-    background-color: black;
+    background-color: rgb(95, 13, 143);
     color: white;
     position: fixed;
     bottom: 0;
